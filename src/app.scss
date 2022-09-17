@@ -1,16 +1,21 @@
-.main
-{
+.main {
     height: 100%;
-    .section
-    {
+
+    .section {
         width: 100%;
         height: calc(100vh - 70px);
         position: relative;
-        top: 70px;
-        scroll-snap-type: y mandatory;
+        top: 12px;
         z-index: -1;
-        > *{
-            scroll-snap-align: start;
+
+        >* {
+            height: calc(100vh - 105px);
         }
+    }
+}
+
+.active2 {
+    .section {
+        top: 90px;
     }
 }

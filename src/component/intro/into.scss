@@ -7,8 +7,28 @@
     .left {
         flex: 0.5;
         background-color: rgb(255, 255, 255);
-        // padding-top: 100px;
-        // padding-left: 200px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        .wrapper{
+            padding-bottom: 70px;
+            display: flex;
+            justify-content: left;
+            flex-direction: column;
+            // border: 2px solid black;
+            h3{
+                font-size: 30px;
+            }
+            h1{
+                font-size: 80px;
+            }
+            div{
+                font-size: 30px;
+                color: red;
+                
+            }
+        }
     }
 
     .right {

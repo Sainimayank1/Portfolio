@@ -1,12 +1,17 @@
 import "./into.scss"
-
+import FontAwesomeIcon from "@fortawesome/fontawesome-free"
+import { init } from 'ityped'
 export default function intro( { menu ,  setmenu } ) {
   return (
+
     <div className="into" id="intro">
       <div className="left">
+      <div className="wrapper">
         <h3>Hi There, I'am</h3>
-        <h2>Mayank.</h2>
-        <div>Webdeveloper<span></span></div>
+        <h1>Mayank.</h1>
+        <div>Webdeveloper</div>
+      </div>
+      <a href="#intro"><img src="./assets/arrow-down-solid.svg" alt="arrow"></img></a>
       </div>
       <div className={ "right " + ( menu ? "active_3" : "" )}>
         <div className="Image">
